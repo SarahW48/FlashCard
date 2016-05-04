@@ -235,8 +235,8 @@ var SingleFlashCard = React.createClass({
       subject: this.state.title === null ? '' : this.state.title,
       recipients: [],
       body: this.state.description === null ? '': this.state.description,
-    /*  attachment: attachment,
-      audio_attachment: {
+      attachment: attachment,
+    /*  audio_attachment: {
         path: AudioUtils.DocumentDirectoryPath + `/${this.state.id}.caf`,
         type: 'caf',
         name: 'Special_voice_for_you.caf',
